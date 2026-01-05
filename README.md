@@ -2,6 +2,9 @@
 
 A responsive analytics dashboard UI built using React and custom CSS, developed by implementing a client-provided design.
 
+## 🚀 Live Demo
+https://react-analytics-dashboard-ui.netlify.app
+
 ## 🚀 Features
 - Sidebar with icon rail and navigation menu
 - Top navbar with search and actions
