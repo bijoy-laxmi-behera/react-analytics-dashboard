@@ -25,16 +25,9 @@ A responsive analytics dashboard UI built using React and custom CSS, developed 
 
 ## 📸 Screenshots
 
-> Responsive analytics dashboard across desktop, tablet, and mobile breakpoints.
-
-### 🖥️ Desktop View
-![Desktop Dashboard](screenshots/desktop.png)
-
-### 📱 Tablet View
-![Tablet Dashboard](screenshots/tablet.png)
-
-### 📲 Mobile View
-![Mobile Dashboard](screenshots/mobile.png)
+| Desktop | Tablet | Mobile |
+|-------|--------|--------|
+| ![](screenshots/desktop.png) | ![](screenshots/tablet.png) | ![](screenshots/mobile.png) |
 
 ## ▶️ Run Locally
 ```bash
