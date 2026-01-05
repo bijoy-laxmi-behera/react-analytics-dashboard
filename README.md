@@ -27,3 +27,15 @@ A responsive analytics dashboard UI built using React and custom CSS, developed 
 ```bash
 npm install
 npm run dev
+
+## 📸 Screenshots
+
+### Desktop
+![Desktop View](screenshots/desktop.png)
+
+### Tablet
+![Tablet View](screenshots/tablet.png)
+
+### Mobile
+![Mobile View](screenshots/mobile.png)
+
