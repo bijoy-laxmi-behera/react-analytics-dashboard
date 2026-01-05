@@ -36,3 +36,10 @@ https://react-analytics-dashboard-ui.netlify.app
 ```bash
 npm install
 npm run dev
+```
+
+### 🔹 Deployment
+```md
+## 🌍 Deployment
+Deployed on Netlify with continuous deployment from GitHub.
+```
