@@ -1,0 +1,107 @@
+/* DASHBOARD LAYOUT */
+
+.dashboard {
+  min-height: 100vh;
+  background: #f6f7fb;
+}
+
+.sidebar-wrapper {
+  background: #ffffff;
+  /* border-right: 1px solid #e5e7eb; */
+}
+
+.main-wrapper {
+  padding: 20px;
+}
+
+.content-area {
+  margin-top: 10px;
+}
+
+/* KPI / STAT CARDS (LEVEL 2) */
+
+.stat-card {
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+}
+
+/* Highlight card — Best Deal (LEVEL 1) */
+.stat-card.highlight {
+  background: #ff4d6d;
+  color: #ffffff;
+  box-shadow: none;
+  padding: 14px 16px;
+}
+
+/* STAT CARD TEXT */
+
+.stat-title {
+  font-size: 13px;
+  color: #6b7280;
+  margin-bottom: 6px;
+}
+
+.stat-card.highlight .stat-title {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.stat-value {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.stat-sub {
+  font-size: 12px;
+  color: #ef4444;
+}
+
+.stat-card.highlight .stat-sub {
+  color: #ffffff;
+}
+
+/* CONTENT / CHART CARDS (LEVEL 3) */
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+}
+
+.card h6 {
+  font-size: 14px;
+  font-weight: 500;
+}
+/* ================= RESPONSIVE ================= */
+
+/* Laptop & small desktop */
+@media (max-width: 1200px) {
+  .sidebar-wrapper {
+    width: 80px;
+  }
+
+  .main-wrapper {
+    padding: 16px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .sidebar-wrapper {
+    display: none;
+  }
+
+  .main-wrapper {
+    width: 100%;
+    padding: 14px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .content-area {
+    margin-top: 6px;
+  }
+}

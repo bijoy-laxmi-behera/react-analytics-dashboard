@@ -1,0 +1,1062 @@
+/* ================= ROOT ================= */
+.report-header {
+  background: #faf7f6;
+  padding: 24px 28px 32px;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont;
+  color: #111827;
+  border-radius: 10px;
+}
+
+/* ================= TOOLBAR ================= */
+.toolbar-card {
+  border-radius: 18px;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+}
+
+
+.report-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px; 
+}
+
+.toolbar-left {
+  gap: 12px;
+}
+
+.toolbar-right {
+  gap: 10px;
+}
+
+
+.toolbar-left,
+.toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.circle-btn {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border :1px solid #e5e7eb;
+  background: #fff;
+  color: black;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.avatar-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px 4px 4px;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.avatar-chip img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-left: 0;   
+}
+
+.avatar-only {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  justify-content: center;
+}
+
+.avatar-group img,
+.avatar-placeholder {
+  border: 2px solid #fff;
+}
+
+.avatar-placeholder {
+  background: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.icon-btn {
+  border: none;
+  background: #fff;
+  border-radius: 10px;
+  padding: 8px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+}
+
+.timeframe {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  padding: 6px 10px;
+  border-radius: 999px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+}
+
+.time-label {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.time-btn {
+  border: none;
+  background: transparent;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* ================= TITLE ================= */
+.report-label {
+  font-size: 14px;
+  color: #9ca3af;
+  margin-bottom: 6px;
+}
+
+/* ================= TOP SUMMARY ================= */
+.report-top {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+/* Revenue */
+.revenue-block {
+  flex: 1.2;
+}
+
+.revenue-title {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.revenue-main {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin: 6px 0;
+}
+
+.revenue-value {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+
+.revenue-decimal {
+  font-size: 30px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.growth-pill {
+  background: #dc2626;
+  color: #fee2e2;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  margin-left: 8px;
+}
+
+.growth-amount {
+  background: #dc2626;
+  color: #fee2e2;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.revenue-compare {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* ================= KPI MINI ================= */
+.kpi-mini-row {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+.kpi-mini {
+  background: #fff;
+  padding: 10px 12px;
+  border-radius: 14px;
+  min-height: 92px;
+  border: 1px solid #e5e7eb;
+}
+
+.kpi-mini.dark {
+  background: #111827;
+  color: #fff;
+  border: none;
+}
+
+.kpi-mini.active {
+  border: 1.5px solid #ef4444;
+}
+
+.kpi-label {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.kpi-value {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.kpi-value.active {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #ef4444;
+  border-radius: 10px;
+  color: #fff;
+  padding: 2px 6px;
+  width: fit-content;
+}
+
+.kpi-sub {
+  font-size: 12px;
+  color: #9ca3af;
+}
+.symbol{
+  color: #fff;
+  font-size:16px;
+  margin-left:30px;
+}
+
+.next1,.next2{
+  font-size:20px;
+  color:#6b7280;
+  margin-left:30px;
+}
+.next1{
+    background-color: #ececec;
+    border-radius: 5px;
+    color:black;
+  }
+.next2{
+    background-color: #fff;
+    border-radius: 5px;
+    color:black;
+  }
+
+/* ================= KPI STRIP ================= */
+.kpi-strip {
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 12px;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+  align-items: center;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+}
+
+.kpi-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+}
+
+.kpi-chip img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.kpi-chip small {
+  color: #6b7280;
+}
+
+.details-btn {
+  margin-left: auto;
+  background: #111827;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+/* ================= ANALYTICS GRID ================= */
+.analytics-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 18px;
+}
+
+.panel {
+  background: #fff;
+  padding: 14px;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+}
+
+.panel-header {
+  font-size: 12px;
+  color: #6b7280;
+  padding: 0 12px 6px;
+}
+
+.filter-btn {
+  border: none;
+  background: #f3f4f6;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+/* ================= REFERRER ================= */
+.referrer-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.referrer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.referrer-list li {
+  display: grid;
+  grid-template-columns: 1.4fr auto auto;
+  font-size: 13px;
+  padding: 8px 0;
+}
+
+.ref-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ref-icon { font-size: 16px; }
+.ref-icon.dribbble { color: #ea4c89; }
+.ref-icon.instagram { color: #e1306c; }
+.ref-icon.behance { color: #1769ff; }
+.ref-icon.google { color: #4285f4; }
+
+/* ================= DEALS ================= */
+.deals-bars.refined {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  height: 140px;
+}
+
+.deal-pill {
+  width: 34px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: inset 0 0 0 1px #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deal-pill.dribbble { height: 90%; }
+.deal-pill.behance { height: 75%; }
+.deal-pill.google { height: 60%; }
+.deal-pill.instagram { height: 85%; }
+
+.deal-pill.striped {
+  background: repeating-linear-gradient(
+    45deg,
+    #f3f4f6,
+    #f3f4f6 6px,
+    #ffffff 6px,
+    #ffffff 12px
+  );
+}
+
+.deal-icon { font-size: 16px; }
+.deal-icon.dribbble { color: #ea4c89; }
+.deal-icon.behance { color: #1769ff; }
+.deal-icon.google { color: #4285f4; }
+.deal-icon.instagram { color: #e1306c; }
+
+.panel-sub {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 6px;
+}
+
+/* ================= SALES PANEL ================= */
+.sales-panel {
+  padding: 16px;
+}
+
+.panel-header,
+.sales-row {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 0.7fr 1.2fr;
+  align-items: center;
+  column-gap: 18px;
+}
+
+.sales-row {
+  background: #fff;
+  border-radius: 14px;
+  padding: 10px 12px;
+}
+
+.sales-row.active {
+  background: #fdecec;
+  padding: 10px 14px;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sales-row-group {
+  margin-bottom: 12px;
+}
+
+.pill {
+  background: #f3f4f6;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.pill.dark {
+  background: #111827;
+  color: #fff;
+  height: fit-content;
+  
+}
+
+.expand-btn {
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* Expanded */
+.sales-expanded {
+  background: rgba(239, 68, 68, 0.08);
+  padding: 16px;
+  border-radius: 16px;
+  margin-top: 6px;
+}
+
+.expanded-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+/* Badges */
+.badges {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.badge {
+  border: 1px solid #e5e7eb;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+/* Platform mini */
+.platform-mini {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  font-size: 13px;
+  padding: 4px 0;
+}
+
+.mt {
+  margin-top: 14px;
+}
+
+.sales-chart-placeholder {
+  height: 120px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #fee2e2, #fff);
+}
+/* ================= SALES LINE CHART ================= */
+
+.sales-chart {
+  margin-top: 8px;
+  background: #fdecec;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.sales-chart svg {
+  width: 100%;
+  height: 150px;
+}
+
+/* Grid */
+.chart-grid line {
+  stroke: #f5bcbc;
+  stroke-width: 1;
+  stroke-dasharray: 4;
+}
+
+/* Line */
+.chart-line {
+  stroke: #ef4444;
+  stroke-width: 2.5;
+}
+
+/* Points */
+.sales-chart circle {
+  fill: #ef4444;
+}
+/* ================= SALES AVATAR FIX ================= */
+
+/* Ensure avatar container behaves correctly */
+.sales-row .user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sales-row .pill {
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+.sales-row .pill.dark {
+  background: #111827;
+  color: #fff;
+}
+
+
+/* Force perfect circular avatar */
+.sales-row .user img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+/* ================= PLATFORM VALUE (EXACT MATCH) ================= */
+
+.platform-value {
+  background: #fff;
+  border-radius: 18px;
+  padding: 14px;
+  margin-top: 16px;
+}
+
+/* Header */
+.platform-value-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.platform-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.platform-select {
+  margin-left: 8px;
+  border: none;
+  background: #f3f4f6;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.platform-tabs {
+  display: flex;
+  gap: 6px;
+}
+
+.platform-tabs button {
+  border: none;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  background: #f3f4f6;
+  cursor: pointer;
+}
+
+.platform-tabs .active {
+  background: #111827;
+  color: #fff;
+}
+
+/* Body */
+.platform-value-body {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 16px;
+}
+
+/* Left red card */
+.platform-summary {
+  background: #ef4444;
+  color: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.summary-label {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.platform-summary h3 {
+  font-size: 22px;
+}
+
+/* Chart */
+.platform-chart {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  height: 150px;
+}
+
+.chart-bars {
+  display: flex;
+  gap: 26px;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.chart-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.chart-value {
+  font-size: 11px;
+  background: #ef4444;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+.bar {
+  width: 26px;
+  border-radius: 6px;
+  background: #e5e7eb;
+}
+
+.bar.striped {
+  background: repeating-linear-gradient(
+    45deg,
+    #e5e7eb,
+    #e5e7eb 6px,
+    #f9fafb 6px,
+    #f9fafb 12px
+  );
+}
+
+.h-sm { height: 50px; }
+.h-md { height: 70px; }
+.h-lg { height: 95px; }
+
+.chart-label {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* Axis */
+.chart-axis {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+/* ================= WORK WITH PLATFORMS (CARD VIEW) ================= */
+
+.platform-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.platform-title-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.platform-header-badges {
+  display: flex;
+  gap: 8px;
+}
+
+.platform-badge {
+  background: #ef4444;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+/* Grid layout */
+.platform-cards-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 12px;
+}
+
+/* Left big card */
+.platform-card.big {
+  background: #fff;
+  border-radius: 18px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Right stack */
+.platform-cards-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.platform-card.full {
+  grid-column: span 2;
+}
+
+/* Base card */
+.platform-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+}
+
+/* Striped Google card */
+.platform-card.striped {
+  background: repeating-linear-gradient(
+    45deg,
+    #f3f4f6,
+    #f3f4f6 6px,
+    #ffffff 6px,
+    #ffffff 12px
+  );
+}
+
+/* Card title */
+.platform-card-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Card values */
+.platform-card-value {
+  margin-top: 18px;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.platform-card-value .percent {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.platform-card-value .amount {
+  font-size: 18px;
+  color: #9ca3af;
+}
+
+/* ================= GOOGLE OUTSIDE SUB VALUE ================= */
+
+.google-block {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.google-sub-pill {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: #ffffff;
+  border-radius: 999px;
+  font-size: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+}
+
+/* dots */
+.dot-group {
+  display: flex;
+  width: 30px;
+  gap: 3px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #111827;
+  border-radius: 50%;
+}
+
+.sub-percent {
+  font-weight: 600;
+  color: #111827;
+}
+
+.sub-amount {
+  color: #9ca3af;
+}
+
+
+/* ================= OTHER PLATFORM CARD ================= */
+
+.other-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: #f8f6f5;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+}
+
+.other-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.other-right {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.other-percent {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.other-amount {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+/* RIGHT AREA */
+.platform-chart-area {
+  background: #fff;
+  border-radius: 18px;
+  padding: 14px;
+  position: relative;
+}
+
+/* Tabs */
+.platform-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.platform-tabs button {
+  border: none;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  background: #f3f4f6;
+  cursor: pointer;
+}
+
+.platform-tabs .active {
+  background: #111827;
+  color: #fff;
+}
+
+/* Bars */
+.platform-bars {
+  display: flex;
+  gap: 24px;
+  align-items: flex-end;
+  height: 140px;
+}
+
+.bar-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.bar {
+  width: 28px;
+  border-radius: 6px;
+  background: #e5e7eb;
+}
+
+.bar.small { height: 35px; }
+.bar.medium { height: 55px; }
+.bar.gray { height: 70px; }
+.bar.tall { height: 100px; }
+
+.bar.striped {
+  background: repeating-linear-gradient(
+    45deg,
+    #e5e7eb,
+    #e5e7eb 6px,
+    #f9fafb 6px,
+    #f9fafb 12px
+  );
+}
+
+.bar-label {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.bar-value {
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+.bar-value.red {
+  background: #ef4444;
+  color: #fff;
+}
+
+/* Avatars */
+.bar-avatars {
+  display: flex;
+}
+
+.bar-avatars img {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-left: -6px;
+}
+
+/* Y Axis */
+.chart-axis {
+  position: absolute;
+  right: 12px;
+  top: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 11px;
+  color: #9ca3af;
+}
+/* ================= RESPONSIVE ================= */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .report-top {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .kpi-mini-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .analytics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .platform-value-body {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .report-header {
+    padding: 16px;
+  }
+
+  .kpi-mini-row {
+    grid-template-columns: 1fr;
+  }
+
+  .kpi-strip {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .platform-cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .platform-cards-right {
+    grid-template-columns: 1fr;
+  }
+
+  .sales-row,
+  .panel-header {
+    grid-template-columns: 1.4fr 1fr;
+    row-gap: 10px;
+  }
+
+  .sales-row .leads,
+  .sales-row .kpi,
+  .sales-row .wl {
+    justify-content: flex-start;
+  }
+}
