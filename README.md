@@ -26,12 +26,6 @@ https://react-analytics-dashboard-ui.netlify.app
 - Tablet: Single-column analytics layout
 - Mobile: Stacked cards and simplified tables
 
-## 📸 Screenshots
-
-| Desktop | Tablet | Mobile |
-|-------|--------|--------|
-| ![](screenshots/desktop.png) | ![](screenshots/tablet.png) | ![](screenshots/mobile.png) |
-
 ## ▶️ Run Locally
 ```bash
 npm install
