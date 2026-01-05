@@ -23,19 +23,20 @@ A responsive analytics dashboard UI built using React and custom CSS, developed 
 - Tablet: Single-column analytics layout
 - Mobile: Stacked cards and simplified tables
 
+## 📸 Screenshots
+
+> Responsive analytics dashboard across desktop, tablet, and mobile breakpoints.
+
+### 🖥️ Desktop View
+![Desktop Dashboard](screenshots/desktop.png)
+
+### 📱 Tablet View
+![Tablet Dashboard](screenshots/tablet.png)
+
+### 📲 Mobile View
+![Mobile Dashboard](screenshots/mobile.png)
+
 ## ▶️ Run Locally
 ```bash
 npm install
 npm run dev
-
-## 📸 Screenshots
-
-### Desktop
-![Desktop View](screenshots/desktop.png)
-
-### Tablet
-![Tablet View](screenshots/tablet.png)
-
-### Mobile
-![Mobile View](screenshots/mobile.png)
-
